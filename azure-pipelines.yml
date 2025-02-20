@@ -1,0 +1,10 @@
+trigger:
+- master
+
+pool:
+  name: Default
+  demands:
+   - agent.name -equals azure-agent
+
+steps:
+- script: bash /AzureCICD/workingDir/CI-CD.sh
