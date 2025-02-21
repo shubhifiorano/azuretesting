@@ -1,0 +1,10 @@
+trigger:
+- master
+
+pool:
+  name: Default
+  demands:
+   - agent.name -equals esbpc9
+
+steps:
+- script: bash /AzureWorking/CI-CD_azure.sh
