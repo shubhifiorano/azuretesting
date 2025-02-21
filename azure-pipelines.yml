@@ -7,4 +7,4 @@ pool:
    - agent.name -equals esbpc9
 
 steps:
-- script: bash /AzureCICD/workingDir/CI-CD_azure.sh
+- script: bash /AzureWorking/CI-CD_azure.sh
