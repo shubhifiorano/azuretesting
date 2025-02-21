@@ -4,7 +4,7 @@
     <service-instance name="KinesisProducer1" x="323" y="76"/>
     <service-instance name="KinesisConsumer1" x="69" y="264"/>
     <service-instance name="Display1" x="530" y="91"/>
-    <service-instance name="Timer1" x="127" y="153"/>
+    <service-instance name="Timer1" x="107" y="74"/>
   </subflow>
   <shortcut-routes/>
 </layout>
